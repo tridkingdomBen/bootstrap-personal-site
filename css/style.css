@@ -1,0 +1,46 @@
+.my-nav{
+  background:#FF6600;
+}
+.my-nav ul{
+  margin:10px 0;
+}
+a.navbar-brand{
+  font-size: 100%;
+  margin:10px;
+  background:white;
+  border-radius: 3px;
+}
+.navbar-default .navbar-header a:hover{
+  background-color: #FFEE99;
+}
+#my-photo{
+  margin-top: 20px;
+}
+.social-app img{
+  width:8%;
+  display:inline-block;
+  padding-right: 15px;
+}
+body{
+  padding-top:70px;
+}
+#my-interest .panel-warning{
+  margin:10px auto;
+}
+.panel-body .tab-content #tab1warning img{
+  width:100%;
+}
+.panel-body .tab-content #tab1warning,#tab2warning p{
+  padding:0 5px;
+}
+@media screen and (max-width:780px){
+  .table .social-app img{
+    width:16%;
+  }
+  #bs-example-navbar-collapse-1{
+    background-color: white;
+  }
+  #bs-example-navbar-collapse-1 .navbar-nav li:hover{
+    background: #FF6600;
+  }
+}

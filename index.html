@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang='zh'>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My bootstrap-petsonal website</title>
+
+    <!-- 引入 Bootstrap 樣式 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='css/style.css' rel='stylesheet'>
+  </head>
+  <body>
+    
+    <!-- 導覽列-->
+    <nav class="navbar-fixed-top my-nav navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#about">我的網站</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="pull-right nav navbar-nav">
+            <li><a class="btn btn-default" href="#about" role='button'>Who am I</a></li>
+            <li><a class="btn btn-default" href="#work" role='button'>My Work</a></li>
+            <li><a class="btn btn-default" href="#my-interest" role='button'>My Interest</a></li>
+            <li><a class="btn btn-default" href="#contact-me" role='button'>Contact me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Who am I-->
+    <div class='container' id='about'>
+      <div class ='row'>
+        <div class='col-xs-12 col-sm-5 col-md-4 col-lg-3'>
+          <img class='img-responsive center-block' src='https://i.imgur.com/6tvnfVz.jpg' alt='my-avator' id='my-photo'>
+        </div>
+        <div class='col-xs-12 col-sm-7 col-md-8 col-lg-9'>
+          <h1>I am Ben</h1>
+          <h3>College student major in Lanscape Design</h3>
+          <table class='table table-striped table-hover'>
+            <tr>
+              <td>Birth</td>
+              <td>1995</td>
+            </tr>
+            <tr>
+              <td>工作經驗</td>
+              <td>一年，新創兒童教育，行銷設計人員</td>
+            </tr>
+            <tr>
+              <td>學習經歷</td>
+              <td>
+                台灣大學結業，2018<br/>
+                大航海計畫結業，2018
+              </td>
+            </tr>
+            <tr class='social-app'>
+              <td>社群連結</td>
+              <td><a href='https://www.facebook.com/profile.php?id=100001384757272' target="_blank"><img class='img-responsive center-block' src='https://i.imgur.com/p2S3cB9.png'></a><a href='https://www.instagram.com/asdfzxcvb12371/' target="_blank"><img class='img-responsive center-block' src='https://i.imgur.com/QQi4IrO.png'></a><a href='https://www.linkedin.com/in/秉昕-林-3a7a80134/' target="_blank"><img class='img-responsive center-block ' src='https://i.imgur.com/tlLUDY1.png'></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- My work-->
+    <h1 class='text-center' id='work'>我的作品集</h1>
+    <div class='container'>
+      <div class='row'>
+        <div class='my-project col-xs-12 col-sm-6 col-md-4 col-lg-4'>
+          <h3 class='text-center project-name'>信義415公園</h3>
+          <img class='img-responsive center-block' src="https://i.imgur.com/iE3vDyG.jpg" alt='信義415公園'>
+        </div>
+        <div class='my-project col-xs-12 col-sm-6 col-md-4 col-lg-4'>
+          <h3 class='text-center project-name'>萬華艋舺公園</h3>
+          <img class='img-responsive center-block' src="https://i.imgur.com/lr15aUG.jpg" alt='萬華艋舺公園'>
+        </div>
+        <div class='my-project col-xs-12 col-sm-6 col-md-4 col-lg-4'>
+          <h3 class='text-center project-name'>宜蘭巨石工廠</h3>
+          <img class='img-responsive center-block' src="https://i.imgur.com/ax4sTUx.jpg" alt='宜蘭巨石工廠'>
+        </div>
+      </div>
+    </div>
+    <!-- My interest-->
+    <h1 class='text-center' id='work'>我的興趣</h1>
+    <div class="container" id='my-interest'>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" >
+          <div class="panel with-nav-tabs panel-warning">
+            <div class="panel-heading">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1warning" data-toggle="tab">自助旅行遊記</a></li>
+                <li><a href="#tab2warning" data-toggle="tab">讀書心得撰寫</a></li>
+              </ul>
+            </div>
+            <div class="panel-body">
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="tab1warning">
+                  <table>
+                    <tr>
+                      <th><img class='img-responsive center-block' src='https://i.imgur.com/1dbnflC.jpg'>
+                        <div class='trip-info'>
+                          <h3 class='text-center'>杜拜三日行程</h3>
+                        </div>
+                      </th>
+                      <td>
+                        <p class='text-center'>計劃於1/14-16在此地停留三天，作為前往瑞士的轉機處，希望於三天內欣賞杜拜繁華興起與歷史人文的一面，單因為時間及安全上的問題，一些原本認為必玩的行程如沙漠夜宿等則等待下次與人結伴同行。</p>
+                        <p class='text-center'>Day1<br/>哈里發塔、清真寺、黃金市集<br/>Day2<br/> Mall of Emirates、帆船酒店、Madinat Jumeirah<br/>Day3<br/>杜拜博物館、Bastakia Quarter、黃金市集</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th><img class='img-responsive center-block' src='https://i.imgur.com/MTZiwfC.jpg'>
+                        <div class='trip-info'>
+                          <h3 class='text-center'>瑞士10日行程</h3>
+                        </div>
+                      </th>
+                      <td>
+                        <p class='text-center'>1/17-26玩十天</p>
+                        <p class='text-center'>將會飛抵蘇黎世機場，並在蘇黎世、溫特圖爾等地逗留兩天，之後會搭火車往瑞士中部移動，前往盧森及首都伯恩等地，因不想滑雪故決定不前往少女峰而往南部的洛桑、日內瓦等地欣賞日內瓦湖景觀，後街抵達策馬特欣賞馬特洪峰壯勵之景致。</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th><img class='img-responsive center-block' src='https://i.imgur.com/SbKaLgf.jpg'>
+                        <div class='trip-info'>
+                          <h3 class='text-center'>澳洲十日行程</h3>
+                        </div>
+                      </th>
+                      <td>
+                        <p class='text-center'>9/1-9/9玩10天</p>
+                        <p class='text-center'>Day1<br/>布里斯本市區<br/><br/>Day2<br/> 黃金海岸、華納兄弟樂園</p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div class="tab-pane fade" id="tab2warning">
+                  <table>
+                    <tr>
+                      <th><img class='img-responsive center-block' src='https://i.imgur.com/t5DpRfX.jpg'>
+                        <div class='trip-info'>
+                          <h3 class='text-center'>書名：我不吃早餐</h3>
+                        </div>
+                      </th>
+                      <td>
+                        <h4 class='text-center'>告訴人們各種不吃早餐的謬誤該如何破解</h4>
+                        <p class='text-center'>一層層解釋關於各種吃早餐的謬誤，首先解釋了有哪些關於早餐的傳言，如：吃早餐的人比較聰明、吃早餐的人比不吃早餐的瘦等等，之後再一個一個說明當初這些理論的依據為何，以及如何的不合理。最後，再利用生理上酵素的真實作用告訴我們不吃早餐對於身體健康只有好而沒有壞的結論，但前提就是你並非從事糕耗費體能的工作。</p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact me-->
+    <h1 class='text-center'>Contact me</h1>
+    <div class='container' id='contact-me'>
+      <div class='row'>
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4'>
+          <form>
+            <div class="form-group">
+              <label for="name">姓名</label>
+              <input type="text" class="form-control" id=name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" >
+            </div>
+            <div class="form-group">
+              <label for="message">訊息</label>
+              <textarea class='form-control' id='message' row='3'></textarea>
+              <p class='help-block'>請留言</p>
+            </div>
+            <button type="reset" class="btn btn-danger">重設</button>
+            <button type="submit" class="btn btn-primary">提交</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap 插件是基於 jQuery 之上，所以須先引入 jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 引入 Bootstrap 插件 -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
